@@ -24,10 +24,10 @@ if (jBen == 'pertalite'):
     hasilPakai = eval(KotaT) / jTempuhPLite
     totalHarga = hasilPakai * pLite
 elif (jBen == 'pertamax'):
-    hasilPakai = eval(KotaT) / jTempuhPLite
+    hasilPakai = eval(KotaT) / jTempuhPMax
     totalHarga = hasilPakai * pMax
 elif (jBen == 'pertamax turbo'):
-    hasilPakai = eval(KotaT) / jTempuhPLite
+    hasilPakai = eval(KotaT) / jTempuhPTurbo
     totalHarga = hasilPakai * pTurbo
 else :
     print('ERROR')
